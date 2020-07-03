@@ -2,26 +2,26 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Inter', sans-serif !important;
-    margin: 0;
+    /* margin: 0; */
     font-size: 16px;
     background-color: #fff;
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
 }
 
-#home,
-#about,
-#services,
-#products,
+/* #home, */
+/* #about, */
+/* #services, */
+/* #products, */
 #testimonials,
 #contact {
-    /* margin-left: 60px;
-    margin-right: 60px; */
+    margin-top: -100px;
 }
 
 #testimonials .line,
@@ -66,7 +66,8 @@ body {
 .headings{
     position: relative;
     width: fit-content;
-    margin:30px auto;
+    margin:50px auto;
+    font-size: 1.7rem;
 }
 
 .headings::before {
